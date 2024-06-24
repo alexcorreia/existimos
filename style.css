@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/cartaz.jpg);
+    background-image: url(img/fundo.png);
 }
 
 header {
@@ -84,6 +84,7 @@ h2 {
     font-family: 'Inconsolata';
     font-size: 1.8rem;
     text-align: center;
+    padding: 10px;
 }
 
 h3 {
@@ -114,8 +115,8 @@ h3 {
 }
 
 .grid-item img {
-    width: 100%;
-    height: 100%; /* Altura da imagem fixa */
+    width: 300px;
+    height: 300px; /* Altura da imagem fixa */
     object-fit: cover; /* Ajustar a imagem dentro do contêiner */
     border-radius: 10px;
 }
@@ -150,24 +151,24 @@ footer ul li {
 
     header {
         display: flex;
-        gap: 154px;
+        gap: 25px;
     }
 
     .container {
         display: block;
         cursor: pointer;
-        padding: 19px;
+        padding: 10px;
     }
 
     .bar1, .bar2, .bar3 {
-        width: 37px;
+        width: 34px;
         height: 5px;
         background-color: #E84F3C;
         margin: 6px 0;
     }
 
     img {
-        width: 60%;
+        width: 83%;
     }
 
     main {
@@ -179,14 +180,14 @@ footer ul li {
 
     .campo1 {
         background-color: white;
-        width: 582px;
-        border-radius: 21px;
+        width: 389px;
+        border-radius: 12px
     }
 
     h2 {
         color: #E84F3C;
         font-family: 'Inconsolata';
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         text-align: center;
     }
 
@@ -194,9 +195,59 @@ footer ul li {
         color: #E84F3C;
         text-align: center;
         font-family: 'Inconsolata';
-        font-size: 2.4rex;
+        font-size: 1.9rex;
         padding: 28px;
     }
+
+    .footer-content {
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 1.5rex;
+        text-align: center;
+        color: #E84F3C;
+        font-family: 'Inconsolata';
+    }
+    
+    .grid-item img {
+        width: 222px;
+        height: 217px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .grid-container {
+        display: flex;
+        grid-gap: 1%;
+        overflow: auto;
+        padding: 10px;
+        white-space: nowrap;
+        flex-direction: row;
+    }
+
+    footer {
+    background-color: #fff;
+    padding: 4px;
+    display: flex;
+    opacity: 78%;
+   }
+}
+
+
+@media screen and (max-width: 377px) {
+    .campo1 {
+        background-color: white;
+        width: 298px;
+        border-radius: 12px;
+    }
+
+    h2 {
+        color: #E84F3C;
+        font-family: 'Inconsolata';
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 10px;
+    }
+
 }
 
 
