@@ -1,0 +1,256 @@
+body {
+    background-image: url(img/cartaz.jpg);
+}
+
+header {
+    display: flex;
+    gap: 484px;
+}
+
+.logótipo {
+    padding: 26px;
+}
+
+img {
+    width: 50%;
+}
+
+.container {
+    display: block;
+    cursor: pointer;
+    padding: 26px;
+}
+    
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 5px;
+    background-color: #E84F3C;
+    margin: 6px 0;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #C8C9C4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: E84F3C;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+  
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.instagram {
+    background: #bb0000;
+    color: white;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    grid-gap: 100px;
+    padding: 110px;
+}
+
+.campo1  {
+    background-color: white;
+    width: 965px;
+    border-radius: 21px;
+}
+
+h2 {
+    color: #E84F3C;
+    font-family: 'Inconsolata';
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h3 {
+    color: #E84F3C;
+    text-align: center;
+    font-family: 'Inconsolata';
+    font-size: 2.9rex;
+    padding: 28px;
+}
+
+.EVENTOS {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.EVENTOS img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+.grid-container {
+    display: flex;
+    grid-gap: 1%;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%; /* Altura da imagem fixa */
+    object-fit: cover; /* Ajustar a imagem dentro do contêiner */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    opacity: 78%;
+}
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
+    color: #E84F3C;
+    font-family: 'Inconsolata';
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.3%;
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+
+    header {
+        display: flex;
+        gap: 154px;
+    }
+
+    .container {
+        display: block;
+        cursor: pointer;
+        padding: 19px;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 37px;
+        height: 5px;
+        background-color: #E84F3C;
+        margin: 6px 0;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    main {
+        display: grid;
+        justify-content: center;
+        grid-gap: 100px;
+        padding: 80px;
+    }
+
+    .campo1 {
+        background-color: white;
+        width: 582px;
+        border-radius: 21px;
+    }
+
+    h2 {
+        color: #E84F3C;
+        font-family: 'Inconsolata';
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h3 {
+        color: #E84F3C;
+        text-align: center;
+        font-family: 'Inconsolata';
+        font-size: 2.4rex;
+        padding: 28px;
+    }
+}
+
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        display: flex;
+        gap: 191px;
+    }
+
+    .container {
+        display: block;
+        cursor: pointer;
+        padding: 13px;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 33px;
+        height: 4px;
+        background-color: #E84F3C;
+        margin: 6px 0;
+    }
+
+    img {
+        width: 55%;
+    }
+
+    main {
+        display: grid;
+        justify-content: center;
+        grid-gap: 100px;
+        padding: 72px;
+    }
+
+    .campo1 {
+        background-color: white;
+        width: 627px;
+        border-radius: 22px;
+    }
+
+    h2 {
+        color: #E84F3C;
+        font-family: 'Inconsolata';
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h3 {
+        color: #E84F3C;
+        text-align: center;
+        font-family: 'Inconsolata';
+        font-size: 2.4rex;
+        padding: 28px;
+    }
+
+}
+
